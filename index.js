@@ -3,12 +3,8 @@ document.getElementById('body').style.backgroundColor = 'silver'
 const title = document.querySelector('h1'); 
 title.style.color = 'green';
 
-document.addEventListener('DOMContentLoaded', function() {
-    const h3Titles = document.querySelectorAll('h3'); 
-    h3Titles.forEach(title => {
-      title.style.textTransform = 'uppercase'; 
-    });
-  });
+document.getElementById('h3f').style.textTransform = 'uppercase'
+document.getElementById('h3v').style.textTransform = 'uppercase'
 
 
   let newFruits=document.createElement("li");
@@ -18,6 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   let newVegetables=document.createElement("li");
-  newVegatables.innerHTML= 'cabbage';
-  document.getElementById("vegList").appendChild(newVegatables)
+  newVegetables.innerHTML= 'cabbage';
+  document.getElementById("vegList").appendChild(newVegetables)
   
